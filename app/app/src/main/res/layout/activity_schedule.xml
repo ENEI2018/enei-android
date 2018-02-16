@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.enei.eneiapp.ScheduleActivity">
+    tools:context="com.enei.eneiapp.views.ScheduleActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorMainBlue"
         android:paddingTop="@dimen/appbar_padding_top"
         android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
 
@@ -20,10 +21,10 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:layout_weight="1"
-            android:background="?attr/colorPrimary"
+            android:background="@color/colorMainBlue"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay"
-            app:title="@string/app_name">
+            app:title="@string/title_activity_schedule_toolbar">
 
         </android.support.v7.widget.Toolbar>
 
@@ -49,6 +50,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_text_3" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_text_4" />
 
         </android.support.design.widget.TabLayout>
     </android.support.design.widget.AppBarLayout>

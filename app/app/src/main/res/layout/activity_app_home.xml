@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.enei.eneiapp.AppHomeActivity">
+    tools:context="com.enei.eneiapp.views.AppHomeActivity">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -113,8 +113,8 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimaryDark"
             app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>

@@ -1,4 +1,4 @@
-package com.enei.eneiapp;
+package com.enei.eneiapp.views;
 
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.enei.eneiapp.R;
 
 public class WebViewActivity extends AppCompatActivity {
 

@@ -12,20 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".AppHomeActivity">
+            android:name=".views.AppHomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WebViewActivity">
+        <activity android:name=".views.WebViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".ScheduleActivity"
+            android:name=".views.ScheduleActivity"
             android:label="@string/title_activity_schedule"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>

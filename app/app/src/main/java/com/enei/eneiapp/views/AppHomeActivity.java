@@ -1,7 +1,6 @@
-package com.enei.eneiapp;
+package com.enei.eneiapp.views;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,7 +9,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
+import com.enei.eneiapp.R;
 import com.enei.eneiapp.utils.Constants;
+
+import java.lang.reflect.Field;
 
 public class AppHomeActivity extends AppCompatActivity {
 
@@ -48,6 +50,22 @@ public class AppHomeActivity extends AppCompatActivity {
                 AppHomeActivity.this.startActivity(myIntent);
             }
         });
+
+        try {
+            overrideDefaultFont();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void overrideDefaultFont() throws NoSuchFieldException, IllegalAccessException {
+        Typeface customFont = Typeface.createFromAsset(getAssets(), Constants.FONT_PATH);
+
+        final Field defaultFontTypefaceField = Typeface.class.getDeclaredField("SERIF");
+        defaultFontTypefaceField.setAccessible(true);
+        defaultFontTypefaceField.set(null, customFont);
     }
 
 }

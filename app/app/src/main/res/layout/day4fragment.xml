@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBlue"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@android:color/white"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorMainBlue"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Palestras"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="3"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@android:color/white"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="1dp"
+                            android:background="@color/colorMainBlue"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Workshops"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="10:00"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="4"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Por anunciar"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="10:00 - 11:00 | Auditório FEUP"
+                                android:textColor="@color/colorTextHighlight" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="10"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Por anunciar"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:textColor="@color/colorTextHighlight" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="10"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Por anunciar"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:textColor="@color/colorTextHighlight" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="10"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Por anunciar"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:textColor="@color/colorTextHighlight" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="10:15"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="10:30"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="10:45"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="11:00"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="3"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Por anunciar"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="11:00 - 11:45 | Auditório FEUP"
+                                android:textColor="@color/colorTextHighlight" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="11:15"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="11:30"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="11:45"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="3"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="João Azevedo"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="11:45 - 12:30 | Auditório FEUP"
+                                android:textColor="@color/colorTextHighlight" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="12:00"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="12:15"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="12:30"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="4"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Almoço | Cantina de Engenharia"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="13:45"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="14:00"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="4"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Sessão de encerramento | Auditório FEUP"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="15:15"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="15:30"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="4"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Porto de Honra"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="17:00"
+                        android:textColor="@android:color/white" />
+
+                </GridLayout>
+            </HorizontalScrollView>
+
+        </ScrollView>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/day1tabs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Palestras" />
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atividades" />
+
+        </android.support.design.widget.TabLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
