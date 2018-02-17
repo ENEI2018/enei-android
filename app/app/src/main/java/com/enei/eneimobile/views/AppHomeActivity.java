@@ -22,6 +22,8 @@ public class AppHomeActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        Constants.appContext = this;
+
         Button websiteButton = findViewById(R.id.button_website);
         Button programButton = findViewById(R.id.button_program);
 

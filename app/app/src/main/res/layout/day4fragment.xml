@@ -25,6 +25,7 @@
                 <GridLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
                     android:columnCount="5">
 
                     <LinearLayout
@@ -101,6 +102,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_nelsonpinho"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -138,6 +140,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws9"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -173,6 +176,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_pedrocaramez"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -208,6 +212,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_mariocarneiro"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -275,6 +280,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_ruiguedes"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -334,6 +340,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_leonelmorgado"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"

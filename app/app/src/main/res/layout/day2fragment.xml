@@ -25,6 +25,7 @@
                 <GridLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
                     android:columnCount="5">
 
                     <LinearLayout
@@ -101,6 +102,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_luispauloreis"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -136,6 +138,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -171,6 +174,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_renatorodrigues"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -206,6 +210,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_andrebatista"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -273,6 +278,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_tanenbaum"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -347,6 +353,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_ivosilva"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -445,6 +452,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_andresilva"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -486,6 +494,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_filipecarvalho"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -521,6 +530,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_networking"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnSpan="2"
@@ -580,6 +590,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_ruicosta"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -647,6 +658,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_danielteixeira"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -746,6 +758,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_debate"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -781,6 +794,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -816,6 +830,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnSpan="2"

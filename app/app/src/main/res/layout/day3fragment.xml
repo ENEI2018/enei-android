@@ -25,6 +25,7 @@
                 <GridLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
                     android:columnCount="5">
 
                     <LinearLayout
@@ -101,6 +102,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_wolfgang"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -146,6 +148,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_paulopatricio"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -181,6 +184,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -216,6 +220,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -267,6 +272,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_espinheira"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -333,6 +339,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_joaoazevedo"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -392,6 +399,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_josepedrosilva"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -506,6 +514,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_joaoleal"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -548,6 +557,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ferrolho"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -583,6 +593,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_andrecruz"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnSpan="1"
@@ -619,6 +630,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnSpan="1"
@@ -670,6 +682,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_alexey"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -729,6 +742,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_jobvandervoort"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -835,6 +849,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_guilhermeduarte"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -870,6 +885,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_karaoke1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -905,6 +921,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnSpan="1"
@@ -941,6 +958,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/speaker_ws8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnSpan="1"
@@ -993,6 +1011,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_slot1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -1044,6 +1063,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_slot2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -1095,6 +1115,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_karaoke2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnSpan="2"
