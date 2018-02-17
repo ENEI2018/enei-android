@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.enei.eneiapp">
+    package="com.enei.eneimobile">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,20 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".views.AppHomeActivity">
+            android:name="com.enei.eneimobile.views.AppHomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".views.WebViewActivity">
+        <activity android:name="com.enei.eneimobile.views.WebViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".views.ScheduleActivity"
+            android:name="com.enei.eneimobile.views.ScheduleActivity"
             android:label="@string/title_activity_schedule"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>

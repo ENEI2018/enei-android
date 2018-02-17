@@ -1,4 +1,4 @@
-package com.enei.eneiapp.views.fragments;
+package com.enei.eneimobile.views.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.enei.eneiapp.R;
+import com.enei.eneimobile.R;
 
 public class Day1Fragment extends ScheduleDayFragment {
     private static final String TAG = "Day1Fragment";

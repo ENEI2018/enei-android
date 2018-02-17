@@ -1,4 +1,4 @@
-package com.enei.eneiapp;
+package com.enei.eneimobile;
 
 import org.junit.Test;
 

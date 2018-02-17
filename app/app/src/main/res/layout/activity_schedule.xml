@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.enei.eneiapp.views.ScheduleActivity">
+    tools:context="com.enei.eneimobile.views.ScheduleActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"

@@ -1,4 +1,4 @@
-package com.enei.eneiapp.utils;
+package com.enei.eneimobile.utils;
 
 import android.graphics.Color;
 

@@ -1,4 +1,4 @@
-package com.enei.eneiapp;
+package com.enei.eneimobile;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

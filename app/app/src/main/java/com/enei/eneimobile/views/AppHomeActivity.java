@@ -1,4 +1,4 @@
-package com.enei.eneiapp.views;
+package com.enei.eneimobile.views;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -9,8 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-import com.enei.eneiapp.R;
-import com.enei.eneiapp.utils.Constants;
+import com.enei.eneimobile.R;
+import com.enei.eneimobile.utils.Constants;
 
 import java.lang.reflect.Field;
 

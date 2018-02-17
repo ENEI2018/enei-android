@@ -1,4 +1,4 @@
-package com.enei.eneiapp.views.fragments;
+package com.enei.eneimobile.views.fragments;
 
 import android.support.v4.app.Fragment;
 

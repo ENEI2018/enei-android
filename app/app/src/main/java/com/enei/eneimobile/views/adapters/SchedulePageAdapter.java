@@ -1,10 +1,10 @@
-package com.enei.eneiapp.views.adapters;
+package com.enei.eneimobile.views.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.enei.eneiapp.views.fragments.ScheduleDayFragment;
+import com.enei.eneimobile.views.fragments.ScheduleDayFragment;
 
 import java.util.ArrayList;
 import java.util.List;
