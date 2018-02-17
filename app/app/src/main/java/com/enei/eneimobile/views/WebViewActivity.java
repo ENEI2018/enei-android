@@ -1,42 +1,44 @@
 package com.enei.eneimobile.views;
 
-import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.webkit.WebResourceRequest;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 
 import com.enei.eneimobile.R;
 
 public class WebViewActivity extends AppCompatActivity {
+
+    private WebView myWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview);
 
-        WebView myWebView = findViewById(R.id.mainwebview);
+        myWebView = findViewById(R.id.mainwebview);
+
+        // Enable Javascript
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+        //Enable Cache
         webSettings.setAppCacheEnabled(true);
 
-        myWebView.setWebViewClient(new WebViewClient() {
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    String url = request.getUrl().toString();
-                    if(url.startsWith("https://enei.pt")) {
-                        view.loadUrl(url);
-                    } else {
-                        return true;
-                    }
-                }
-                return false;
-            }
-        });
+        ProgressBar mProgressBar = findViewById(R.id.loadingProgressBar);
+        myWebView.setWebViewClient(new mWebViewClient(mProgressBar));
 
         myWebView.loadUrl("https://enei.pt/");
+    }
+
+    // Prevent the back-button from closing the app
+    @Override
+    public void onBackPressed() {
+        if(myWebView.canGoBack()) {
+            myWebView.goBack();
+        } else {
+            super.onBackPressed();
+        }
     }
 }

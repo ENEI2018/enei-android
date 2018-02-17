@@ -2,7 +2,6 @@ package com.enei.eneimobile.views;
 
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -36,7 +35,7 @@ public class AppHomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Open website in browser
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.ENEI_WEBSITE));
+                Intent browserIntent = new Intent(AppHomeActivity.this, WebViewActivity.class);
                 startActivity(browserIntent);
             }
         });
