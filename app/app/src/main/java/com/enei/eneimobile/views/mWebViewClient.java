@@ -1,5 +1,7 @@
 package com.enei.eneimobile.views;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.view.View;
 import android.webkit.WebResourceRequest;
@@ -23,7 +25,8 @@ public class mWebViewClient extends WebViewClient {
             if(url.startsWith("https://enei.pt")) {
                 view.loadUrl(url);
             } else {
-                return true;
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                view.getContext().startActivity(browserIntent);
             }
         }
         return false;
