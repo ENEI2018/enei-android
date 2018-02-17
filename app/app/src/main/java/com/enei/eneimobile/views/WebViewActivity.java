@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.widget.ProgressBar;
+import android.widget.ImageView;
 
 import com.enei.eneimobile.R;
 
@@ -26,8 +26,7 @@ public class WebViewActivity extends AppCompatActivity {
         //Enable Cache
         webSettings.setAppCacheEnabled(true);
 
-        ProgressBar mProgressBar = findViewById(R.id.loadingProgressBar);
-        myWebView.setWebViewClient(new mWebViewClient(mProgressBar));
+        myWebView.setWebViewClient(new mWebViewClient(this));
 
         myWebView.loadUrl("https://enei.pt/");
     }

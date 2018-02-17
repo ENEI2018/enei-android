@@ -8,4 +8,5 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_app_home">ENEI</string>
     <string name="title_activity_schedule_toolbar">ENEI 2018</string>
+    <string name="loadingfilter">loadingFilter</string>
 </resources>
