@@ -27,6 +27,7 @@ public class mWebViewClient extends WebViewClient {
             } else {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 view.getContext().startActivity(browserIntent);
+                return true;
             }
         }
         return false;
