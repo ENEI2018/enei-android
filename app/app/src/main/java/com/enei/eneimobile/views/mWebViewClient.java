@@ -32,12 +32,14 @@ public class mWebViewClient extends WebViewClient {
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            if(request.getUrl() == null) {
+                return true;
+            }
             String url = request.getUrl().toString();
             if(url.startsWith("https://enei.pt")) {
                 view.loadUrl(url);
             } else {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                view.getContext().startActivity(browserIntent);
+                view.getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
                 return true;
             }
         }
