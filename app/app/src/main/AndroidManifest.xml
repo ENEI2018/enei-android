@@ -11,23 +11,29 @@
         android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity
-            android:name="com.enei.eneimobile.views.AppHomeActivity">
+        <activity android:name=".views.AppHomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.enei.eneimobile.views.WebViewActivity">
+        <activity android:name=".views.WebViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.enei.eneimobile.views.ScheduleActivity"
+            android:name=".views.ScheduleActivity"
             android:label="@string/title_activity_schedule"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".views.GameActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="enei"/>
+            </intent-filter>
         </activity>
     </application>
 

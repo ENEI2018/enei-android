@@ -26,12 +26,15 @@ public class AppHomeActivity extends AppCompatActivity {
 
         Button websiteButton = findViewById(R.id.button_website);
         Button programButton = findViewById(R.id.button_program);
+        Button gameButton = findViewById(R.id.button_game);
 
         Typeface customFont = Typeface.createFromAsset(getAssets(), Constants.FONT_PATH);
         websiteButton.setTypeface(customFont);
         programButton.setTypeface(customFont);
+        gameButton.setTypeface(customFont);
         websiteButton.setBackgroundColor(Constants.BACKGROUND_PURPLE);
         programButton.setBackgroundColor(Constants.BACKGROUND_PURPLE);
+        gameButton.setBackgroundColor(Constants.BACKGROUND_PURPLE);
 
         websiteButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +51,16 @@ public class AppHomeActivity extends AppCompatActivity {
                 // Open program activity
                 Intent myIntent =
                         new Intent(AppHomeActivity.this, ScheduleActivity.class);
+                AppHomeActivity.this.startActivity(myIntent);
+            }
+        });
+
+        gameButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Open program activity
+                Intent myIntent =
+                        new Intent(AppHomeActivity.this, GameActivity.class);
                 AppHomeActivity.this.startActivity(myIntent);
             }
         });
