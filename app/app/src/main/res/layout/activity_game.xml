@@ -54,6 +54,7 @@
                     android:padding="3dp">
 
                     <ImageView
+                        android:id="@+id/sonaeim"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -70,45 +71,7 @@
                     android:padding="3dp">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
+                        android:id="@+id/deloitte"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -132,6 +95,7 @@
                     android:padding="3dp">
 
                     <ImageView
+                        android:id="@+id/efacec"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -148,45 +112,7 @@
                     android:padding="3dp">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
+                        android:id="@+id/natixis"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -210,6 +136,7 @@
                     android:padding="3dp">
 
                     <ImageView
+                        android:id="@+id/wipro"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -226,45 +153,7 @@
                     android:padding="3dp">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
+                        android:id="@+id/biblioteca"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -288,6 +177,7 @@
                     android:padding="3dp">
 
                     <ImageView
+                        android:id="@+id/entrada"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -304,6 +194,7 @@
                     android:padding="3dp">
 
                     <ImageView
+                        android:id="@+id/niaefeup"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
@@ -327,6 +218,130 @@
                     android:padding="3dp">
 
                     <ImageView
+                        android:id="@+id/ieee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/feup" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/cantina"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/feup" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/falcao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/feup" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/queijos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/feup" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/dei"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/feup" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/cica"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/feup" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/aefeup"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
