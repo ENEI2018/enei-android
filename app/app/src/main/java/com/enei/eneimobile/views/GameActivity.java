@@ -59,21 +59,21 @@ public class GameActivity extends AppCompatActivity {
 
     private static final Map<String, String> locationCodes = new HashMap<>();
     static {
-        locationCodes.put(CODE_SONAEIM, "hasherino1");
-        locationCodes.put(CODE_DELOITTE, "hasherino2");
-        locationCodes.put(CODE_EFACEC, "hasherino3");
-        locationCodes.put(CODE_NATIXIS, "hasherino4");
-        locationCodes.put(CODE_WIPRO, "hasherino5");
-        locationCodes.put(CODE_BIBLIOTECA, "hasherino6");
-        locationCodes.put(CODE_PORTAFEUP, "hasherino7");
-        locationCodes.put(CODE_NIAEFEUP, "hasherino8");
-        locationCodes.put(CODE_IEEE, "hasherino9");
-        locationCodes.put(CODE_CANTINA, "hasherino10");
-        locationCodes.put(CODE_FALCAO, "hasherino11");
-        locationCodes.put(CODE_QUEIJOS, "hasherino12");
-        locationCodes.put(CODE_DEI, "hasherino13");
-        locationCodes.put(CODE_CICA, "hasherino14");
-        locationCodes.put(CODE_AEFEUP, "hasherino15");
+        locationCodes.put(CODE_SONAEIM, "QTf5C4Xdql");
+        locationCodes.put(CODE_DELOITTE, "tvQWbsbTHR");
+        locationCodes.put(CODE_EFACEC, "vSUpNIygM5");
+        locationCodes.put(CODE_NATIXIS, "EnMJE4Kj0k");
+        locationCodes.put(CODE_WIPRO, "JZk5h5oFXC");
+        locationCodes.put(CODE_BIBLIOTECA, "6R1pSGuttd");
+        locationCodes.put(CODE_PORTAFEUP, "JRTszWRIUl");
+        locationCodes.put(CODE_NIAEFEUP, "JJP0KJ3Omo");
+        locationCodes.put(CODE_IEEE, "U5JJDnFfE1");
+        locationCodes.put(CODE_CANTINA, "UdOsCciw5n");
+        locationCodes.put(CODE_FALCAO, "GI5ON0865E");
+        locationCodes.put(CODE_QUEIJOS, "5C6fvNL8QQ");
+        locationCodes.put(CODE_DEI, "gEDh1XDqXk");
+        locationCodes.put(CODE_CICA, "tH2NmauM4x");
+        locationCodes.put(CODE_AEFEUP, "xFxRv85oc5");
     }
 
     private static final Map<String, Integer> locationViewIds = new HashMap<>();
@@ -114,6 +114,25 @@ public class GameActivity extends AppCompatActivity {
         locationNames.put(CODE_AEFEUP, "AEFEUP");
     }
 
+    private static final Map<Integer, String> viewHints = new HashMap<>();
+    static {
+        viewHints.put(R.id.sonaeim, "[TESTE] código 1 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.deloitte, "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.efacec, "[TESTE] código 3 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.natixis, "[TESTE] código 4 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.wipro, "[TESTE] código 5 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.biblioteca, "[TESTE] código 6 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.entrada, "[TESTE] código 7 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.niaefeup, "[TESTE] código 8 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.ieee, "[TESTE] código 9 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.cantina, "[TESTE] código 10 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.falcao, "[TESTE] código 11 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.queijos, "[TESTE] código 12 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.dei, "[TESTE] código 13 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.cica, "[TESTE] código 14 (futuramente existirão pistas sobre onde encontrar os códigos)");
+        viewHints.put(R.id.aefeup, "[TESTE] código 15 (futuramente existirão pistas sobre onde encontrar os códigos)");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -142,7 +161,7 @@ public class GameActivity extends AppCompatActivity {
                 if(prefs.getBoolean(location, false)) {
                     DialogHelper.showOkDialog(this, "Já tinhas descoberto o lugar \"" + place + "\". Procura novos códigos nos locais do ENEI!");
                 } else {
-                    DialogHelper.showOkDialog(this, "Parabéns! Descobriste " + place);
+                    DialogHelper.showOkDialog(this, "Parabéns! Descobriste o local \"" + place + "\". Não desistas de procurar os outros códigos!");
                     prefs.edit().putBoolean(location, true).apply();
                 }
             }
@@ -150,15 +169,30 @@ public class GameActivity extends AppCompatActivity {
 
         checkSuccessfulCodes();
 
+        checkWon();
+
+        View.OnClickListener hintListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String hint = viewHints.get(view.getId());
+                DialogHelper.showOkDialog(GameActivity.this, hint);
+            }
+        };
+
         for(String loc : locations) {
             int id = locationViewIds.get(loc);
-            findViewById(id).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    DialogHelper.showOkDialog(GameActivity.this, "We are still working on this message, our typewriters have broken.");
-                }
-            });
+            findViewById(id).setOnClickListener(hintListener);
         }
+    }
+
+    private void checkWon() {
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        for(String location : locations) {
+            if(!prefs.getBoolean(location, false)) {
+                return;
+            }
+        }
+        DialogHelper.showOkDialog(this, "Encontraste todos os códigos! Mostra esta mensagem a um membro da organização para receberes o teu brinde ;)");
     }
 
     private void checkSuccessfulCodes() {
