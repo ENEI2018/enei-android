@@ -125,9 +125,23 @@
                                 android:id="@+id/textView4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Nelson Pinho"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView49"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="20"
+                                android:text="Will You Disrupt or Be Disrupted in 2018? Digital Transformation and the New Face of Business"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:id="@+id/textView5"
@@ -141,7 +155,7 @@
 
                     <LinearLayout
                         android:id="@+id/speaker_ws9"
-                        android:layout_width="match_parent"
+                        android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
                         android:layout_margin="2dp"
@@ -162,9 +176,24 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:maxEms="12"
+                                android:text="João Riqueza, Ernesto Costa e Marcelo Barroso"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView67"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="{H}API Day - Open architectures"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -177,7 +206,7 @@
 
                     <LinearLayout
                         android:id="@+id/speaker_pedrocaramez"
-                        android:layout_width="match_parent"
+                        android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
                         android:layout_margin="2dp"
@@ -198,9 +227,23 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Pedro Caramez"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView68"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Masterclass LinkedIn + apresentação DCOOP"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -213,7 +256,7 @@
 
                     <LinearLayout
                         android:id="@+id/speaker_mariocarneiro"
-                        android:layout_width="match_parent"
+                        android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
                         android:layout_margin="2dp"
@@ -234,9 +277,23 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Mário Carneiro e João Gradim"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView69"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Internet of Things (Arduino)"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -302,9 +359,23 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Rui Guedes"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView50"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="20"
+                                android:text="Novas Realidades Digitais (Virtual, Aumentada, Mista)"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -341,7 +412,7 @@
 
                     <LinearLayout
                         android:id="@+id/speaker_leonelmorgado"
-                        android:layout_width="match_parent"
+                        android:layout_width="220dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
                         android:layout_margin="2dp"
@@ -362,9 +433,23 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="João Azevedo"
+                                android:text="Leonel Morgado"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView51"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="20"
+                                android:text="Jogos Sérios e Mundos Virtuais para ensino e formação: tendências e perspetivas"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView11"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"

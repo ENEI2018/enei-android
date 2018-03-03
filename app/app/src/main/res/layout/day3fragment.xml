@@ -11,8 +11,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -94,6 +94,102 @@
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_rowWeight="1"
+                        android:text="08:00"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="4"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Alvorada"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="08:30"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_rowWeight="1"
+                        android:text="08:45"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="4"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Pequeno-almoço | Cantina de Engenharia"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="09:45"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
                         android:id="@+id/textView20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -137,6 +233,11 @@
                                 android:text="From Industrial Automation, Disaster Recovery, and Space Exploration: A Journey in Practical Robotics"
                                 android:textColor="@android:color/white" />
 
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/en_flag" />
+
                             <TextView
                                 android:id="@+id/textView5"
                                 android:layout_width="match_parent"
@@ -170,9 +271,21 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Paulo Patrício e Sandra Simões"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Internet Of Things – Da Conceptualização À Criação"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -206,9 +319,21 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Celso Martinho"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="101 Blockchain"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -242,9 +367,22 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Rui Brilha e Egas Basto"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView56"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Miniclip"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -304,6 +442,11 @@
                                 android:maxEms="20"
                                 android:text="De Estudante a Engenheiro: Gestão de Carreira para Tótós"
                                 android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -373,6 +516,11 @@
                                 android:text="Introdução à programação funcional em JavaScript"
                                 android:textColor="@android:color/white" />
 
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -432,6 +580,11 @@
                                 android:maxEms="20"
                                 android:text="Indústria 4.0"
                                 android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -547,6 +700,11 @@
                                 android:text="De Portugal para a Google"
                                 android:textColor="@android:color/white" />
 
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -579,9 +737,22 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Henrique Ferrolho"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView65"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Robotics Mechanics with ThreeJS"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -616,9 +787,22 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="André Cruz"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView64"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Criação de Recursos 3D para Motores a Tempo Real"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -653,9 +837,22 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Luís Grangeia"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView66"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Cibersegurança S21sec"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -704,9 +901,21 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Alexey Sidorenko"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView61"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="The Closure: How Russian Government Seeks to Exert Full Control Over the Net"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/en_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -764,9 +973,21 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Job van der Voort"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView62"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="GitLab"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/en_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -849,12 +1070,12 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
-                        android:id="@+id/speaker_guilhermeduarte"
+                        android:id="@+id/speaker_slot"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
                         android:layout_margin="2dp"
-                        android:layout_rowSpan="2"
+                        android:layout_rowSpan="3"
                         android:background="@drawable/schedule_entry_back"
                         android:orientation="vertical"
                         android:padding="0dp">
@@ -878,7 +1099,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="16:45 - 17:15 | Auditório FEUP"
+                                android:text="16:45 - 17:30 | Auditório FEUP"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -1010,42 +1231,6 @@
                         android:text="17:15"
                         android:textColor="@android:color/white" />
 
-                    <LinearLayout
-                        android:id="@+id/speaker_slot1"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="fill_vertical|fill_horizontal"
-                        android:layout_margin="2dp"
-                        android:layout_rowSpan="2"
-                        android:background="@drawable/schedule_entry_back"
-                        android:orientation="vertical"
-                        android:padding="0dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="fill_vertical"
-                            android:layout_margin="2dp"
-                            android:background="@color/colorDarkBlue"
-                            android:orientation="vertical"
-                            android:padding="4dp">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Por anunciar"
-                                android:textColor="@android:color/white"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="17:15 - 17:45 | Auditório FEUP"
-                                android:textColor="@color/colorTextHighlight" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
                     <TextView
                         android:id="@+id/textView41"
                         android:layout_width="wrap_content"
@@ -1054,21 +1239,13 @@
                         android:text="17:30"
                         android:textColor="@android:color/white" />
 
-                    <TextView
-                        android:id="@+id/textView40"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="2dp"
-                        android:text="17:45"
-                        android:textColor="@android:color/white" />
-
                     <LinearLayout
-                        android:id="@+id/speaker_slot2"
+                        android:id="@+id/speaker_slot1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
                         android:layout_margin="2dp"
-                        android:layout_rowSpan="2"
+                        android:layout_rowSpan="3"
                         android:background="@drawable/schedule_entry_back"
                         android:orientation="vertical"
                         android:padding="0dp">
@@ -1085,18 +1262,38 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Guilherme Duarte"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
 
                             <TextView
+                                android:id="@+id/textView63"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="17:45 - 18:15 | Auditório FEUP"
+                                android:text="Por Falar Noutra Coisa"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="17:30 - 18:15 | Auditório FEUP"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
                     </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="17:45"
+                        android:textColor="@android:color/white" />
 
                     <TextView
                         android:id="@+id/textView39"
@@ -1152,17 +1349,19 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView37"
+                        android:id="@+id/textView74"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
-                        android:text="18:30"
+                        android:layout_rowWeight="1"
+                        android:text="18:45"
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
+                        android:id="@+id/speaker_cocktails"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_columnSpan="4"
+                        android:layout_columnSpan="2"
                         android:layout_gravity="fill_vertical|fill_horizontal"
                         android:layout_margin="2dp"
                         android:layout_rowSpan="2"
@@ -1183,7 +1382,39 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
-                                android:text="Por anunciar"
+                                android:text="Sessão de Cocktails"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/speaker_quiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="2"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Quiz by Whitesmith"
                                 android:textColor="@color/colorTextHighlight"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -1191,11 +1422,92 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView36"
+                        android:id="@+id/textView77"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
-                        android:text="22:00"
+                        android:text="20:15"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/textView78"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_rowWeight="1"
+                        android:text="20:30"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/speaker_febrada"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="2"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Mega Febrada | AEFEUP"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/speaker_jantarcvs"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_columnSpan="2"
+                        android:layout_gravity="fill_vertical|fill_horizontal"
+                        android:layout_margin="2dp"
+                        android:layout_rowSpan="2"
+                        android:background="@drawable/schedule_entry_back"
+                        android:orientation="vertical"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_vertical"
+                            android:layout_margin="2dp"
+                            android:background="@color/colorDarkBlue"
+                            android:orientation="vertical"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Jantar de CVs"
+                                android:textColor="@color/colorTextHighlight"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="02:45"
                         android:textColor="@android:color/white" />
 
                 </GridLayout>

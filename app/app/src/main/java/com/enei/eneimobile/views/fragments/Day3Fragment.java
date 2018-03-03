@@ -31,12 +31,10 @@ public class Day3Fragment extends ScheduleDayFragment {
             view.findViewById(R.id.speaker_ws6).setOnClickListener(Constants.speakerListener);
             view.findViewById(R.id.speaker_alexey).setOnClickListener(Constants.speakerListener);
             view.findViewById(R.id.speaker_jobvandervoort).setOnClickListener(Constants.speakerListener);
-            view.findViewById(R.id.speaker_guilhermeduarte).setOnClickListener(Constants.speakerListener);
             view.findViewById(R.id.speaker_karaoke1).setOnClickListener(Constants.speakerListener);
             view.findViewById(R.id.speaker_ws7).setOnClickListener(Constants.speakerListener);
             view.findViewById(R.id.speaker_ws8).setOnClickListener(Constants.speakerListener);
             view.findViewById(R.id.speaker_slot1).setOnClickListener(Constants.speakerListener);
-            view.findViewById(R.id.speaker_slot2).setOnClickListener(Constants.speakerListener);
             view.findViewById(R.id.speaker_karaoke2).setOnClickListener(Constants.speakerListener);
         } catch (NullPointerException e) {
             e.printStackTrace();
