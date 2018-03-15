@@ -8,4 +8,5 @@
     <color name="colorMainBlue">#00008c</color>
     <color name="colorLightBlue">#005ffb</color>
     <color name="loadingFilter">#be005ffb</color>
+    <color name="backgroundPurple">#5a00ff</color>
 </resources>
