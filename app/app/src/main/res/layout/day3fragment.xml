@@ -1296,7 +1296,7 @@
                                 android:id="@+id/textView63"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por Falar Noutra Coisa"
+                                android:text="Ser informático: A vida c'um sócio escolheu."
                                 android:textColor="@android:color/white" />
 
                             <ImageView

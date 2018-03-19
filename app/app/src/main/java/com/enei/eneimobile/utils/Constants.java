@@ -56,6 +56,8 @@ public abstract class Constants {
         speakerLinks.put(R.id.speaker_ws5, ENEI_WEBSITE + "/talks/19");
         speakerLinks.put(R.id.speaker_ruiguedes, ENEI_WEBSITE + "/speakers/21");
         speakerLinks.put(R.id.speaker_pedrocaramez, ENEI_WEBSITE + "/talks/18");
+        speakerLinks.put(R.id.speaker_jantarcvs, ENEI_WEBSITE + "/talks/2");
+        speakerLinks.put(R.id.speaker_cocktails, ENEI_WEBSITE + "/talks/1");
         //speakerLinks.put(R.id.speaker_egasbastos, ENEI_WEBSITE + "/talks/");
         //view.findViewById(R.id.speaker_debate).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_ws2).setOnClickListener(Constants.speakerListener);
