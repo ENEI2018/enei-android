@@ -290,7 +290,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:text="10:00 - 12:30 | Sala B116"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -338,7 +338,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:text="10:00 - 12:30 | Sala B107"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -376,7 +376,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:maxEms="12"
-                                android:text="Miniclip"
+                                android:text="Desenvolver um Jogo Como um Produto"
                                 android:textColor="@android:color/white" />
 
                             <ImageView
@@ -387,7 +387,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:text="10:00 - 12:30 | Sala B120"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -757,7 +757,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="14:00 - 16:00 | Sala por definir"
+                                android:text="14:00 - 16:00 | Sala B116"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -807,7 +807,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="14:00 - 16:00 | Sala por definir"
+                                android:text="14:00 - 16:00 | Sala B120"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -837,17 +837,9 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Luís Grangeia"
+                                android:text="Por anunciar"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/textView66"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:maxEms="12"
-                                android:text="Cibersegurança S21sec"
-                                android:textColor="@android:color/white" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
@@ -1070,7 +1062,7 @@
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
-                        android:id="@+id/speaker_slot"
+                        android:id="@+id/speaker_egasbastos"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="fill_vertical|fill_horizontal"
@@ -1092,9 +1084,23 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Egas Bastos"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView70"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxEms="16"
+                                android:text="10 Pro Tips Para Ser um Game Developer de Sucesso"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -1163,16 +1169,22 @@
                             android:padding="4dp">
 
                             <TextView
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="ESP Applied to IoT"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="16:45 - 18:30 | Sala por definir"
+                                android:text="16:45 - 18:30 | Sala B116"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -1202,14 +1214,28 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Pedro Janeiro"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
 
                             <TextView
+                                android:id="@+id/textView71"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxEms="16"
+                                android:text="Introdução ao Docker"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
+
+                            <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="16:45 - 18:30 | Sala por definir"
+                                android:text="16:45 - 18:30 | Sala B120"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -1382,7 +1408,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
-                                android:text="Sessão de Cocktails"
+                                android:text="Sessão de Cocktails | Sala I-105"
                                 android:textColor="@color/colorTextHighlight"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -1495,7 +1521,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
-                                android:text="Jantar de CVs"
+                                android:text="Jantar Empresarial"
                                 android:textColor="@color/colorTextHighlight"
                                 android:textStyle="bold" />
                         </LinearLayout>

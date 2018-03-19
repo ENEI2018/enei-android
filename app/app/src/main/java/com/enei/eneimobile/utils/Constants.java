@@ -33,7 +33,7 @@ public abstract class Constants {
         speakerLinks.put(R.id.speaker_ferrolho, ENEI_WEBSITE + "/speakers/3");
         speakerLinks.put(R.id.speaker_luispauloreis, ENEI_WEBSITE + "/speakers/19");
         speakerLinks.put(R.id.speaker_ivosilva, ENEI_WEBSITE + "/speakers/8");
-        speakerLinks.put(R.id.speaker_ws1, ENEI_WEBSITE + "/talks/3");
+        speakerLinks.put(R.id.speaker_ws1, ENEI_WEBSITE + "/talks/14");
         speakerLinks.put(R.id.speaker_renatorodrigues, ENEI_WEBSITE + "/talks/4");
         speakerLinks.put(R.id.speaker_andrebatista, ENEI_WEBSITE + "/talks/5");
         speakerLinks.put(R.id.speaker_danielteixeira, ENEI_WEBSITE + "/speakers/20");
@@ -46,23 +46,25 @@ public abstract class Constants {
         speakerLinks.put(R.id.speaker_slot1, ENEI_WEBSITE + "/speakers/18");
         speakerLinks.put(R.id.speaker_nelsonpinho, ENEI_WEBSITE + "/speakers/2");
         speakerLinks.put(R.id.speaker_leonelmorgado, ENEI_WEBSITE + "/speakers/17");
-        speakerLinks.put(R.id.speaker_ws9, ENEI_WEBSITE + "/speakers/12");
+        speakerLinks.put(R.id.speaker_ws9, ENEI_WEBSITE + "/talks/12");
         speakerLinks.put(R.id.speaker_mariocarneiro, ENEI_WEBSITE + "/talks/13");
         speakerLinks.put(R.id.speaker_ws4, ENEI_WEBSITE + "/talks/8");
         speakerLinks.put(R.id.speaker_paulopatricio, ENEI_WEBSITE + "/talks/7");
-        speakerLinks.put(R.id.speaker_joaoleal, ENEI_WEBSITE + "/speakers/");
-        speakerLinks.put(R.id.speaker_joaoleal, ENEI_WEBSITE + "/speakers/");
+        speakerLinks.put(R.id.speaker_ws3, ENEI_WEBSITE + "/talks/16");
+        speakerLinks.put(R.id.speaker_ws7, ENEI_WEBSITE + "/talks/17");
+        speakerLinks.put(R.id.speaker_ws8, ENEI_WEBSITE + "/talks/15");
+        speakerLinks.put(R.id.speaker_ws5, ENEI_WEBSITE + "/talks/19");
+        speakerLinks.put(R.id.speaker_ruiguedes, ENEI_WEBSITE + "/speakers/21");
+        speakerLinks.put(R.id.speaker_pedrocaramez, ENEI_WEBSITE + "/talks/18");
+        //speakerLinks.put(R.id.speaker_egasbastos, ENEI_WEBSITE + "/talks/");
         //view.findViewById(R.id.speaker_debate).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_ws2).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_ws3).setOnClickListener(Constants.speakerListener);
-        //view.findViewById(R.id.speaker_ws5).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_karaoke1).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_ws7).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_ws8).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_slot2).setOnClickListener(Constants.speakerListener);
         //view.findViewById(R.id.speaker_karaoke2).setOnClickListener(Constants.speakerListener)
-        //view.findViewById(R.id.speaker_pedrocaramez).setOnClickListener(Constants.speakerListener);
-        //view.findViewById(R.id.speaker_ruiguedes).setOnClickListener(Constants.speakerListener);
     }
 
     public static final View.OnClickListener speakerListener = new View.OnClickListener() {

@@ -138,7 +138,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
-                        android:text="08:30"
+                        android:text="09:00"
                         android:textColor="@android:color/white" />
 
                     <TextView
@@ -147,7 +147,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
                         android:layout_rowWeight="1"
-                        android:text="08:45"
+                        android:text="09:15"
                         android:textColor="@android:color/white" />
 
                     <LinearLayout
@@ -174,7 +174,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
-                                android:text="Pequeno-almoço | Cantina de Engenharia"
+                                android:text="Pequeno-almoço | Coffee Lounge FEUP"
                                 android:textColor="@color/colorTextHighlight"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -296,7 +296,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:text="10:00 - 12:30 | Sala B116"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -345,7 +345,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:text="10:00 - 12:30 | Sala B107"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -374,7 +374,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="André Batista e José Sousa"
+                                android:text="Frederico Bento e Joana Barão"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
 
@@ -393,7 +393,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="10:00 - 12:30 | Sala por definir"
+                                android:text="10:00 - 12:30 | Sala B120"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -718,7 +718,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="14:00 - 16:00 | Sala por definir"
+                                android:text="14:00 - 16:00 | Sala B120"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -755,7 +755,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="14:00 - 16:00 | Sala por definir"
+                                android:text="14:00 - 16:00 | Sala B116"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -809,7 +809,7 @@
                                 android:id="@+id/textView4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Rui Costa"
+                                android:text="Ricardo Matos"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
 
@@ -1044,14 +1044,29 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:maxEms="12"
+                                android:text="Alexandra Pinto e Boudhayan Mukherjee"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
 
                             <TextView
+                                android:id="@+id/textView66"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Next Gen Experiences Through Connected Technologies"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
+
+                            <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="16:45 - 18:30 | Sala por definir"
+                                android:text="16:45 - 18:30 | Sala a anunciar"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 
@@ -1081,14 +1096,27 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Por anunciar"
+                                android:text="Daniel Silva"
                                 android:textColor="@android:color/white"
                                 android:textStyle="bold" />
 
                             <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxEms="12"
+                                android:text="Programação funcional com Elixir e Phoenix"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/imageView16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/pt_flag" />
+
+                            <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="16:45 - 18:30 | Sala por definir"
+                                android:text="16:45 - 18:30 | Sala B120"
                                 android:textColor="@color/colorTextHighlight" />
                         </LinearLayout>
 

@@ -42,21 +42,21 @@ public class GameActivity extends AppCompatActivity {
 
     public static final List<Location> newLocations = new ArrayList<>();
     static {
-        newLocations.add(new Location("sonaeim", "QTf5C4Xdql", R.id.sonaeim, "SONAE IM", "[TESTE] código 1 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("deloitte", "tvQWbsbTHR", R.id.deloitte, "Deloitte", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("efacec", "vSUpNIygM5", R.id.efacec, "Efafec", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("natixis", "EnMJE4Kj0k", R.id.natixis, "Natixis", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("wipro", "JZk5h5oFXC", R.id.wipro, "Wipro", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("biblioteca", "6R1pSGuttd", R.id.biblioteca, "Biblioteca", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("portafeup", "JRTszWRIUl", R.id.entrada, "Entrada FEUP", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("niaefeup", "JJP0KJ3Omo", R.id.niaefeup, "NIAEFEUP", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("ieee", "U5JJDnFfE1", R.id.ieee, "IEEE UP Student Branch", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("cantina", "UdOsCciw5n", R.id.cantina, "Cantina de Engenharia", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("falcao", "GI5ON0865E", R.id.falcao, "Pavilhào Luís Falcão", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("queijos", "5C6fvNL8QQ", R.id.queijos, "Queijos", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("dei", "gEDh1XDqXk", R.id.dei, "DEI", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("cica", "tH2NmauM4x", R.id.cica, "CICA", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
-        newLocations.add(new Location("aefeup", "xFxRv85oc5", R.id.aefeup, "AEFEUP", "[TESTE] código 2 (futuramente existirão pistas sobre onde encontrar os códigos)"));
+        newLocations.add(new Location("sonaeim", "QTf5C4Xdql", R.id.sonaeim, "SONAE IM", "Patrocinador principal do ENEI."));
+        newLocations.add(new Location("deloitte", "tvQWbsbTHR", R.id.deloitte, "Deloitte", "Conta com aproximadamente 264,000 profissionais em firmas membro que prestam serviços nas áreas de audit & assurance, consulting, financial advisory, risk advisory, tax e serviços relacionados, em mais de 150 países e territórios."));
+        newLocations.add(new Location("efacec", "vSUpNIygM5", R.id.efacec, "Efafec", "É a maior empresa industrial portuguesa do setor elétrico e eletromecânico, desenvolvendo produtos, soluções e sistemas de elevada tecnologia que fazem parte do dia-a-dia de milhões de pessoas."));
+        newLocations.add(new Location("natixis", "EnMJE4Kj0k", R.id.natixis, "Natixis", "Segmento bancário para empresas e investimentos, gestão de ativos, seguros e serviços financeiros do Grupo BPCE, o segundo maior grupo bancário em França."));
+        newLocations.add(new Location("wipro", "JZk5h5oFXC", R.id.wipro, "Wipro", "Empresa líder mundial em tecnologia da informação, consultoria e em serviços de processos de negócios."));
+        newLocations.add(new Location("biblioteca", "6R1pSGuttd", R.id.biblioteca, "Biblioteca", "O principal local de estudo para os estudantes da FEUP. É um edifício de 6 andares com vista para o parque de estacionamento dos estudantes."));
+        newLocations.add(new Location("portafeup", "JRTszWRIUl", R.id.entrada, "Entrada FEUP", "Principal entrada da FEUP, onde se localiza a secretaria e outros serviços académicos."));
+        newLocations.add(new Location("niaefeup", "JJP0KJ3Omo", R.id.niaefeup, "NIAEFEUP", "Núcleo de Informática da AEFEUP. Nesta sala os estudantes realizam trabalhos ou participam em projetos do núcleo. Muitas das reuniões de preparação do ENEI realizaram-se aqui!"));
+        newLocations.add(new Location("ieee", "U5JJDnFfE1", R.id.ieee, "IEEE UP Student Branch", "Ramo da Universidade do Porto do núcleo IEEE. Este núcleo realiza muitas atividades e workshops na FEUP e foi um ponto importante na organização do ENEI!"));
+        newLocations.add(new Location("cantina", "UdOsCciw5n", R.id.cantina, "Cantina de Engenharia", "Cantina que serve principalmente a FEUP e, recentemente, a FEP (Faculdade de Economia). Se já estiveste em refeições do ENEI, provavelmente já estiveste aqui ;)"));
+        newLocations.add(new Location("falcao", "GI5ON0865E", R.id.falcao, "Pavilhào Luís Falcão", "Pavilhão desportivo ao serviço da Universidade do Porto onde se realizam treinos das mais diversas modalidades bem como jogos dos campeonatos universitários."));
+        newLocations.add(new Location("queijos", "5C6fvNL8QQ", R.id.queijos, "Queijos", "Embora seja o local onde se encontram os principais auditórios para aulas teóricas, é mais conhecido pela forma que tem quando visto de cima. É um ponto de encontro frequente para os estudantes da FEUP bem como local de ensaio para as diversas tunas da Faculdade."));
+        newLocations.add(new Location("dei", "gEDh1XDqXk", R.id.dei, "DEI", "Este é o departamento responsável pelos cursos de informática da FEUP. Na entrada podes encontrar um exemplar de um dos primeiros computadores Apple!"));
+        newLocations.add(new Location("cica", "tH2NmauM4x", R.id.cica, "CICA", "Centro de Informática da FEUP, responsável pela maior parte das infraestruturas informáticas da FEUP como o site, sistemas de partilha de ficheiros ou sistema de controlo de acessos."));
+        newLocations.add(new Location("aefeup", "xFxRv85oc5", R.id.aefeup, "AEFEUP", "Principal local de convívio para os estudantes da FEUP e faculdades vizinhas. Aqui podes encontrar um espaço relaxado e é onde se realizam muitas festas da FEUP. Sim, a festarola do ENEI é aqui ;)"));
     }
 
     @Override

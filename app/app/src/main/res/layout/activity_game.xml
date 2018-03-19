@@ -54,94 +54,12 @@
                     android:padding="3dp">
 
                     <ImageView
-                        android:id="@+id/sonaeim"
+                        android:id="@+id/entrada"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/deloitte"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/efacec"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/natixis"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/wipro"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/entrada" />
 
                 </LinearLayout>
 
@@ -157,91 +75,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/entrada"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/niaefeup"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/ieee"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="3dp">
-
-                    <ImageView
-                        android:id="@+id/cantina"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
-
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/biblioteca" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -263,8 +98,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/falcao" />
 
                 </LinearLayout>
 
@@ -280,8 +115,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/queijos" />
 
                 </LinearLayout>
 
@@ -304,8 +139,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/dei" />
 
                 </LinearLayout>
 
@@ -321,8 +156,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cica" />
 
                 </LinearLayout>
 
@@ -345,8 +180,171 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/feup" />
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/aefeup" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/cantina"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cantina" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/sonaeim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/sonaeim" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/deloitte"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/deloitte" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/efacec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/efacec" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/natixis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/natixis" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/wipro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/wipro" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/niaefeup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/niaefeup" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ieee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/ieee" />
 
                 </LinearLayout>
 
@@ -360,6 +358,7 @@
                 </LinearLayout>
 
             </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>

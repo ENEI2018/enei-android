@@ -26,10 +26,10 @@ public class PeddyPaperActivity extends AppCompatActivity {
 
     static {
         newLocations.add(new Location("aliados", "1", R.id.aliados, "Avenida dos Aliados", "O que podes encontrar neste local:\n1. Edifício da Câmara do Porto\n2. Onde o porto festeja o campeonato\n3. Um dos McDonald’s mais bonitos do mundo."));
-        newLocations.add(new Location("saobento", "2", R.id.sbento, "Estação de São Bento", "// TODO: escrever pista"));
+        newLocations.add(new Location("saobento", "2", R.id.sbento, "Estação de São Bento", "Inaugurada há mais de 100 anos, esta é uma das principais estações de comboios do Porto e considerada uma das mais bonitas do Mundo!"));
         newLocations.add(new Location("ribeira", "3", R.id.ribeira, "Ribeira", "1. Ponte emblemática, projetada por Gustave Eiffel.\n2. O Barco Rabelo faz parte da sua paisagem.\n3. Parte da Muralha Fernandina."));
         newLocations.add(new Location("palaciobolsa", "4", R.id.palaciobolsa, "Palácio da Bolsa", "1. Salão Árabe\n2. Escadaria Nobre\n3. Pátio das Nações"));
-        newLocations.add(new Location("ruaflores", "5", R.id.ruaflores, "Rua das Flores", "// TODO: escrever pista"));
+        newLocations.add(new Location("ruaflores", "5", R.id.ruaflores, "Rua das Flores", "O que podes encontrar neste sítio:1. Flores nas varandas.\n2. Casa dos Maias.\n3. Onde está o alfarrabista da cidade do Porto.\n"));
         newLocations.add(new Location("clerigos", "6", R.id.clerigos, "Torre dos Clérigos", "1. Torre mais alta do Porto.\n2. Antigo Convento\n3. Igreja com teto oval, feito pelo Nasoni."));
         newLocations.add(new Location("passeiovirtudes", "7", R.id.passeiovirtudes, "Passeio das Virtudes", "1. Melhor spot para um final de tarde perfeito.\n2. Vista para a Ponte da Arrábida.\n3. Vista para os jardins do Palácio de Cristal."));
         newLocations.add(new Location("igrejacarmo", "8", R.id.igrejacarmo, "Igreja do Carmo", "1. Estilo arquitetónico: barroco\n2. Azulejos que contam história\n3. Construída juntamente com a Igreja das Carmelitas como se fosse uma só."));
