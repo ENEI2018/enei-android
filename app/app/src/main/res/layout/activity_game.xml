@@ -58,7 +58,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="0.3"
-                        android:scaleType="fitCenter"
+                        android:scaleType="centerCrop"
                         app:srcCompat="@drawable/entrada" />
 
                 </LinearLayout>

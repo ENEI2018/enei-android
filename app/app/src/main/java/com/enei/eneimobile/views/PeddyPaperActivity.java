@@ -25,16 +25,16 @@ public class PeddyPaperActivity extends AppCompatActivity {
     public static final List<Location> newLocations = new ArrayList<>();
 
     static {
-        newLocations.add(new Location("aliados", "1", R.id.aliados, "Avenida dos Aliados", "O que podes encontrar neste local:\n1. Edifício da Câmara do Porto\n2. Onde o porto festeja o campeonato\n3. Um dos McDonald’s mais bonitos do mundo."));
-        newLocations.add(new Location("saobento", "2", R.id.sbento, "Estação de São Bento", "Inaugurada há mais de 100 anos, esta é uma das principais estações de comboios do Porto e considerada uma das mais bonitas do Mundo!"));
-        newLocations.add(new Location("ribeira", "3", R.id.ribeira, "Ribeira", "1. Ponte emblemática, projetada por Gustave Eiffel.\n2. O Barco Rabelo faz parte da sua paisagem.\n3. Parte da Muralha Fernandina."));
-        newLocations.add(new Location("palaciobolsa", "4", R.id.palaciobolsa, "Palácio da Bolsa", "1. Salão Árabe\n2. Escadaria Nobre\n3. Pátio das Nações"));
-        newLocations.add(new Location("ruaflores", "5", R.id.ruaflores, "Rua das Flores", "O que podes encontrar neste sítio:1. Flores nas varandas.\n2. Casa dos Maias.\n3. Onde está o alfarrabista da cidade do Porto.\n"));
-        newLocations.add(new Location("clerigos", "6", R.id.clerigos, "Torre dos Clérigos", "1. Torre mais alta do Porto.\n2. Antigo Convento\n3. Igreja com teto oval, feito pelo Nasoni."));
-        newLocations.add(new Location("passeiovirtudes", "7", R.id.passeiovirtudes, "Passeio das Virtudes", "1. Melhor spot para um final de tarde perfeito.\n2. Vista para a Ponte da Arrábida.\n3. Vista para os jardins do Palácio de Cristal."));
-        newLocations.add(new Location("igrejacarmo", "8", R.id.igrejacarmo, "Igreja do Carmo", "1. Estilo arquitetónico: barroco\n2. Azulejos que contam história\n3. Construída juntamente com a Igreja das Carmelitas como se fosse uma só."));
-        newLocations.add(new Location("reitoria", "9", R.id.reitoria, "Reitoria da Universidade do Porto", "1. Edifício protegido pelos Leões.\n2. Atual Museu da História Natural da UP\n3. Antiga Faculdade de Ciências da UP"));
-        newLocations.add(new Location("piolho", "10", R.id.piolho, "Piolho", "1. Abertura em 1909, com o nome Café D’Ouro.\n2. Café preferido dos estudantes\n3. Diz-se que o seu nome, pelo qual é vulgarmente conhecido, surgiu quando pessoas mais velhas comentavam o ambiente do café como “uma piolhice”."));
+        newLocations.add(new Location("aliados", "", R.id.aliados, "Avenida dos Aliados", "O que podes encontrar neste local:\n1. Edifício da Câmara do Porto\n2. Onde o porto festeja o campeonato\n3. Um dos McDonald’s mais bonitos do mundo."));
+        newLocations.add(new Location("saobento", "", R.id.sbento, "Estação de São Bento", "Inaugurada há mais de 100 anos, esta é uma das principais estações de comboios do Porto e considerada uma das mais bonitas do Mundo!"));
+        newLocations.add(new Location("ribeira", "", R.id.ribeira, "Ribeira", "1. Ponte emblemática, projetada por Gustave Eiffel.\n2. O Barco Rabelo faz parte da sua paisagem.\n3. Parte da Muralha Fernandina."));
+        newLocations.add(new Location("palaciobolsa", "", R.id.palaciobolsa, "Palácio da Bolsa", "1. Salão Árabe\n2. Escadaria Nobre\n3. Pátio das Nações"));
+        newLocations.add(new Location("ruaflores", "", R.id.ruaflores, "Rua das Flores", "O que podes encontrar neste sítio:1. Flores nas varandas.\n2. Casa dos Maias.\n3. Onde está o alfarrabista da cidade do Porto.\n"));
+        newLocations.add(new Location("clerigos", "", R.id.clerigos, "Torre dos Clérigos", "1. Torre mais alta do Porto.\n2. Antigo Convento\n3. Igreja com teto oval, feito pelo Nasoni."));
+        newLocations.add(new Location("passeiovirtudes", "", R.id.passeiovirtudes, "Passeio das Virtudes", "1. Melhor spot para um final de tarde perfeito.\n2. Vista para a Ponte da Arrábida.\n3. Vista para os jardins do Palácio de Cristal."));
+        newLocations.add(new Location("igrejacarmo", "", R.id.igrejacarmo, "Igreja do Carmo", "1. Estilo arquitetónico: barroco\n2. Azulejos que contam história\n3. Construída juntamente com a Igreja das Carmelitas como se fosse uma só."));
+        newLocations.add(new Location("reitoria", "", R.id.reitoria, "Reitoria da Universidade do Porto", "1. Edifício protegido pelos Leões.\n2. Atual Museu da História Natural da UP\n3. Antiga Faculdade de Ciências da UP"));
+        newLocations.add(new Location("piolho", "", R.id.piolho, "Piolho", "1. Abertura em 1909, com o nome Café D’Ouro.\n2. Café preferido dos estudantes\n3. Diz-se que o seu nome, pelo qual é vulgarmente conhecido, surgiu quando pessoas mais velhas comentavam o ambiente do café como “uma piolhice”."));
     }
 
     @Override
